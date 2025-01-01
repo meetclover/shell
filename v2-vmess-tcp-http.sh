@@ -1,7 +1,7 @@
 #!/bin/bash
 # 默认安装4.34.0版本
 # 南柯一梦 WEJ.CC
-bash <(curl -L https://ghgo.xyz/https://github.com/meetclover/shell/blob/4dd3260f6d50814adb25edd912786114b54a272d/v2ray-install.sh) --version 4.34.0
+bash <(curl -L https://ghgo.xyz/https://raw.githubusercontent.com/meetclover/shell/refs/heads/main/v2ray-install.sh) --version 4.34.0
 sleep 1
 wget -O /usr/local/etc/v2ray/config.json --no-check-certificate https://ghgo.xyz/https://github.com/meetclover/shell/blob/27ec0e8c6f4f98763328cc8fc8d40a2beca2cb5c/config.json
 sleep 1
